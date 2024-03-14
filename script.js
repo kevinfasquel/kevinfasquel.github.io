@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Configuration de la requête AJAX
         var xhr = new XMLHttpRequest(); // Crée un nouvel objet XMLHttpRequest
-        xhr.open('POST', 'https://n8n.oriatec.fr/webhook/cplr-versionning'); // Définit la méthode et l'URL de la requête
+        xhr.open('POST', 'https://hook.eu2.make.com/a4azuqu662hl2fzihhl7d62tgh3q4a8j'); // Définit la méthode et l'URL de la requête
         xhr.setRequestHeader('Content-Type', 'application/json'); // Définit l'en-tête Content-Type pour JSON
 
         // Événement déclenché lorsque la requête AJAX est terminée
